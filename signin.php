@@ -3,7 +3,6 @@
   include("header.php");
 
   if ($_REQUEST['username'] != null && $_REQUEST['password'] != null) {
-    $dbconnect = pg_connect("port=5432 dbname=hokiemedia user=homerunh password=soccer") or die ('failed to connect:'.pg_last_error());
 
     $username = $_REQUEST['username'];
     $password = $_REQUEST['password'];

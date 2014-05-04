@@ -5,9 +5,6 @@
   echo "<h1>Adhoc Query</h1>";
   echo "<h4>{$_REQUEST['query']}</h4>";
 
-  //Connect to the database.
-  $dbconnect = pg_connect("port=5432 dbname=hokiemedia user=homerunh password=soccer")or die('failed to connect:'.pg_last_error());
-
   //Specify a query for the database.
   $query = $_REQUEST['query'];
 

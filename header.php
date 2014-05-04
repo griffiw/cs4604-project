@@ -5,6 +5,9 @@
   if ($_SESSION['username'] !== NULL) {
     $signedIn = true;
   }
+
+  // Connect to the database.
+  $dbconnect = pg_connect("host=hokiemedia.c6m7wbbcpd0w.us-east-1.rds.amazonaws.com port=5432 dbname=hokiemedia user=hokiemedia password=soccer12")or die('failed to connect:'.pg_last_error());
 ?>
 
 <html>
