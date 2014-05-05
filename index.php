@@ -5,19 +5,7 @@
 <h1>CS 4604 Project Assignment #3</h1>
 
 <h2>Relations:</h2>
-<i>
-  In the following, substitute actual names for Relation1, Relation2
-  etc. Have entries for five relations in your project, ideally
-  representing different aspects of the database.
-  Clicking a link on a relation name should execute an SQL query and list
-  10-20 tuples in that particular relation (of course, they don't work
-  below). Your output should be presented on a separate web page in a neat
-  orderly fashion, one row for each tuple and where columns are evident. 
-  Ensure that all columns have their headers listed and their types are
-  clear (i.e., state which is an int and which is a char and so
-  on).
-</i>
-<br><br>
+<br>
 <ol>
   <li>
     <a href="relation.php?title=relation1" title = "relation1">Relation 1</a> - See 20 sample entries from the "actin" table...
@@ -39,20 +27,7 @@
 <hr>
 
 <h2>Default Queries:</h2>
-<i>
-  In the following, substitute the english query description for a
-  query to your database. You can use a query from Project Assignment 2 of
-  the project, if you like, <strong>as long as the query does not take more than 10
-  seconds to execute</strong>. This constraint is to prevent overloading the database
-  with expensive queries that run for minutes or hours. You can use the
-  <code>LIMIT</code> keyword to list a small number of tuples, say 10-20,
-  that satisfy the query. Again, clicking a
-  link on the query name should execute the appropriate SQL query and list
-  the tuples that are the answer to that particular query. Make sure your
-  output is neatly ordered and column names and types are evident. The
-  output should appear on a separate page.
-</i>
-<br><br>
+<br>
 <ol>
   <li>
     <a href="query.php?title=query1">Query 1</a> - List the ten lastest videos that the actor "Brad Pitt" has starred.
@@ -73,15 +48,7 @@
 <br>
 <hr>
 <h2>Ad-hoc Query:</h2>
-<i>
-  Here, provide a free-form box and two buttons called
-  "Submit" and "Clear". The intent is that the user can enter any arbitrary
-  SQL query in the box and click the submit button; The action should be that you should
-  execute that query on the database and bring up the answers on a separate
-  page, once again, in a neat orderly fashion. Notice that the input
-  can be any legal SQL query (permissible under your DB system, of course).
-</i>
-<br><br>
+<br>
 <form class="form-inline" method=post action="adhoc.php">
   <div class="form-group">
     <label for="query">
