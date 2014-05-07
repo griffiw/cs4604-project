@@ -49,6 +49,7 @@
                 <ul class="dropdown-menu">
                   <li><a href="profile.php">Profile</a></li>
                   <li><a href="friends.php">Friends</a></li>
+                  <li><a href="users.php">Users</a></li>
                 </ul>
               </li>
               <li><a href="signout.php">Sign Out</a></li>
